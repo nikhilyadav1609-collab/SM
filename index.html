@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f38f6b" />
+  <meta name="description" content="Sona Milk - dairy delivery manager" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Sona Milk</title>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="Sona Milk home"><span class="brand-mark">S</span><span>Sona <em>Milk</em></span></a>
+      <div class="top-actions"><button class="icon-btn" id="refreshBtn" aria-label="Refresh">↻</button><button class="avatar" id="profileBtn" aria-label="Profile">?</button></div>
+    </header>
+    <main id="app"></main>
+  </div>
+  <div id="toast" class="toast" role="status"></div>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

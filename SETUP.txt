@@ -1,0 +1,22 @@
+SONA MILK SETUP
+
+1. Supabase
+- Create a Supabase project.
+- In Authentication -> Providers -> Email, enable Email provider.
+- For easiest free setup, you can disable Confirm email while testing. If Confirm email is enabled, customers must confirm their email before signing in.
+- Run supabase/schema.sql in the Supabase SQL Editor.
+
+2. Configure the website
+- Open frontend/config.js.
+- Replace YOUR-PROJECT with your Supabase project URL.
+- Replace YOUR_SUPABASE_PUBLISHABLE_OR_ANON_KEY with the project's publishable/anon key.
+- Never put a service_role/secret key in config.js.
+
+3. GitHub Pages
+- Upload the CONTENTS of frontend/ to the repository root.
+- GitHub Pages: Settings -> Pages -> Deploy from branch -> main -> /(root).
+
+4. Authentication
+- Sign in uses email + password.
+- Create account uses full name + email + password.
+- No SMS provider is required.

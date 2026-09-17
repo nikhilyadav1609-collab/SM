@@ -1,0 +1,10 @@
+{
+  "name": "Sona Milk",
+  "short_name": "Sona Milk",
+  "description": "Fresh milk, simply managed.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#fff8f4",
+  "theme_color": "#f38f6b",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}
